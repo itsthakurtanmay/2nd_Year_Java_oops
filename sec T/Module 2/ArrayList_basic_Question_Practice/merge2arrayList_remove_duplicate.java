@@ -3,8 +3,12 @@ import java.util.Scanner;
 
 public class merge2arrayList_remove_duplicate {
 
-    public static ArrayList<Integer> merge2array_removeDup(ArrayList<Integer>a1,ArrayList<Integer>a1){
+    public static void merge2array_removeDup(ArrayList<Integer>a1,ArrayList<Integer>a2){
+        // a1.addAll(a2);
+        // System.out.println(a1);
 
+        a1.retainAll(a2);
+        System.out.println(a1);
     }
     public static void main(String[] args) {
         ArrayList<Integer>a1 = new ArrayList<>();
