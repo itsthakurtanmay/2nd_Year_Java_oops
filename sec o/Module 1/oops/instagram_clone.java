@@ -16,7 +16,7 @@ class User{
     }
     
     //method to follow req;
-    public void sendReq(User user){
+    public void sendReq(User user){     
         System.out.println(user + " send request to "+ this.userName);
     }
 }

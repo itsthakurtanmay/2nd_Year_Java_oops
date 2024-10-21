@@ -15,6 +15,7 @@ class carStructure{
 
     }
 
+    //method to accelerate car;
     public void acceleration(int increasedSpeed){
         speed+=increasedSpeed;
         System.out.println(this.name + " is now running at the speed of "+ speed + " km/hr");
